@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+body, ul{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+#header{
+  width: 100%;
+  height: 101px;
+  /*background-color: #333;*/
+  background: url(../img/navbg_small2.png) ;
+  position: relative;
+  z-index: 2;
+}
+
+#header .nav{
+  width: 1200px;
+  height: 101px;
+  margin: 0 auto;
+  /*background-color: #333;*/
+  position: relative;
+
+
+
+}
+#header .logoBtm{
+  width: 80px;
+  height: 31px;
+  background: url(../img/navbtm.png);
+
+  position: absolute;
+  top: 68px;
+  left: -2px;
+
+}
+#header .logoImg{
+  width: 220px;
+  height: 100px;
+  background-color: red;
+  background: url(../img/logo_small.png) no-repeat;
+  float: left;
+  position: relative;
+  margin: 12px 0 0 0;
+}
+
+#header ul{
+  width: 810px;
+  height: 65px;
+
+  list-style: none;
+  float: left;
+
+
+
+
+}
+#header ul li{
+  width: 180px;
+  height: 65px;
+  float: left;
+  text-align: center;
+  line-height: 65px;
+  /*position: relative;*/
+}
+
+#header ul li a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+
+#header .splices{
+  position: absolute;
+  display: inline-block;
+  width: 5px;
+  height: 85px;
+  background-color: red;
+  /*position: absolute;
+  right: 90px;
+  top: 6px;*/
+  position: relative;
+  top: -60px;
+  right: -90px;
+  background: url(../img/splices.png) no-repeat;
+}
+#header .login{
+  float: right;
+  height: 65px;
+  width: 100px;
+  line-height: 65px;
+  color: #fff;
+  font-size: 14px;
+}
+
+#header .login a{
+  color: #fff;
+  display: block;
+}
+
+
+#banner {
+  width: 100%;
+  height: 774px;
+
+  background-color: red;
+  background: url(../img/home_02.png) center;
+  position: relative;
+  z-index: 1;
+  top: -31px;
+
+
+}
+
+#slogan{
+  width: 100%;
+  height: 187px;
+  background-color: grey;
+  position: relative;
+  top: -31px;
+  background: url(../img/home_03.png) center no-repeat;
+
+}
+
+#slogan .scrowDown{
+  width: 50px;
+  height: 35px;
+  display: block;
+  /*background-color: red;*/
+  position: absolute;
+  /*left: 50%;*/
+  bottom:30px;
+  margin-left: -25px;
+  left: 50%;
+  opacity: 0.3;
+
+
+}
+
+#tool-intro{
+  width: 100%;
+  height: 340px;
+  background: url(../img/home_04.png) no-repeat top;
+  position: relative;
+
+}
+
+#tool-intro .tool-entry{
+  width: 150px;
+  height: 45px;
+  background-color: red;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  bottom: 0;
+  background: url(../img/home2_09.png) no-repeat;
+
+}
+.bigger{
+   animation-fill-mode: forwards;
+   -webkit-animation: bigger linear;
+
+   /*animation-duration: 1s;*/
+
+
+}
+
+@keyframes bigger {
+  0% ,100%{
+        width: 150px;
+        height: 45px;
+        background: url(../img/home2_09.png) no-repeat;
+        background-size: 100%;
+        margin-left: -70px;
+        bottom: 0;
+    }
+  25%, 75% {
+      width: 172px;
+      height: 49px;
+      background: url(../img/homexbig2_03.png) no-repeat;
+      background-size: 100%;
+      margin-left: -86px;
+      bottom: -5px;
+    }
+}
+#features{
+  width: 100%;
+  height: 300px;
+  background: url(../img/home_05.png) center;
+}
+
+.test{
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
